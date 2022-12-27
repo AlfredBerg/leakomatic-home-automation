@@ -14,7 +14,7 @@ def main():
     parser.add_argument(
         "-p", "--password", help="Password to cloud.leakomatic.com", required=True)
     parser.add_argument(
-        "-d", "--device", help="Device id to target. Can be seem in the path of the request that looks like \"/devices/[your-ID]/change_mode.json\" when changing mode.", required=True, type=int)
+        "-d", "--device", help="Device id to target. Can be seen in the path of the request that looks like \"/devices/[your-ID]/change_mode.json\" when changing mode.", required=True, type=int)
     args = parser.parse_args()
 
     s = requests.Session()

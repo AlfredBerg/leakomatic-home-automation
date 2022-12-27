@@ -16,7 +16,7 @@ options:
   -p PASSWORD, --password PASSWORD
                         Password to cloud.leakomatic.com
   -d DEVICE, --device DEVICE
-                        Device id to target. Can be seem in the path of the request that looks like "/devices/[your-ID]/change_mode.json" when changing mode.
+                        Device id to target. Can be seen in the path of the request that looks like "/devices/[your-ID]/change_mode.json" when changing mode.
   -s, --home-status, --no-home-status
                         Print if in away or home mode
   -a, --alarm-status, --no-alarm-status
@@ -40,7 +40,7 @@ options:
   -p PASSWORD, --password PASSWORD
                         Password to cloud.leakomatic.com
   -d DEVICE, --device DEVICE
-                        Device id to target. Can be seem in the path of the request that looks like "/devices/[your-ID]/change_mode.json" when changing mode.
+                        Device id to target. Can be seen in the path of the request that looks like "/devices/[your-ID]/change_mode.json" when changing mode.
 ```
 
 

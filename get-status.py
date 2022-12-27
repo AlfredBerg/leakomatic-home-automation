@@ -13,7 +13,7 @@ def main():
     parser.add_argument(
         "-p", "--password", help="Password to cloud.leakomatic.com", required=True)
     parser.add_argument(
-        "-d", "--device", help="Device id to target. Can be seem in the path of the request that looks like \"/devices/[your-ID]/change_mode.json\" when changing mode.", required=True, type=int)
+        "-d", "--device", help="Device id to target. Can be seen in the path of the request that looks like \"/devices/[your-ID]/change_mode.json\" when changing mode.", required=True, type=int)
     parser.add_argument(
         "-s", "--home-status", help="Print if in away or home mode", action=argparse.BooleanOptionalAction)
     parser.add_argument(
